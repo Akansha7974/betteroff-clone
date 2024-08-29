@@ -14,7 +14,6 @@ body{
 nav{
     height: 10%;
     width: 100%;
-    /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +35,6 @@ nav ul :hover{
 .left{
     height: 30%;
     width: 50%;
-    /* background-color: palevioletred; */
     padding-left: 20px;
 }
 .left p{
@@ -52,7 +50,6 @@ nav ul :hover{
 .right{
     height: 30%;
     width: 50%;
-    /* background-color: navy; */
     position: absolute;
     top: 20%;
     left: 50%;
@@ -65,4 +62,15 @@ marquee{
 }
 marquee img{
     height: 200px;
+}
+.page2{
+    width: 100%;
+    padding: 100px 20px;
+}
+ .page2 p{
+font-size: 60px;
+padding-bottom: 40px;
+}
+.page2 hr{
+    color: grey;
 }
