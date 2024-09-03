@@ -142,3 +142,32 @@ font-weight: 400;
 .page3 .right2{
     font-size: 30px;
 }
+.page4 .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.page4 .heading h1{
+    font-size: 20px;
+}
+.page4content{
+    text-align: center;
+    font-size: 300px;
+    font-weight: 900;
+    position: relative;
+}
+.page4 video{
+    height: 250px;
+    width: 400px;
+}
+ .page4 .footer{
+    position: absolute;
+    bottom: 3%;
+    left: 52%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: 500;
+    width: 400px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+}
