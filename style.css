@@ -138,6 +138,7 @@ font-weight: 400;
 .page3 .right2{
     font-size: 30px;
 }
+
 .page4 .heading{
     display: flex;
     justify-content: space-between;
@@ -166,4 +167,28 @@ font-weight: 400;
     margin: auto; 
     display: flex;
     justify-content: space-between;
+}
+.page5{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+.page5 div{
+    display: flex;
+    justify-content: space-between;
+}
+.page5 .upper h1{
+    font-weight: 500;
+    color: white;
+}
+.page5 .upper p{
+    color: white;
+    font-size: 50px;
+}
+.page5 h2{
+    padding-top: 40px;
+    font-size: 310px;
+    font-weight: 900;
+    color: white;
 }
