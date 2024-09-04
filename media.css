@@ -1,0 +1,38 @@
+nav > i{
+    display: none;
+    font-size: 30px;
+}
+
+
+@media (max-width: 600px) {
+    
+    nav > i{
+        display: initial;
+    }
+    .first{
+        font-size: 30px;
+    }
+    nav > ul{
+        display: none;
+    }
+    nav h1:last-of-type{
+        display: none;
+    }
+    .left{
+        width: 100%;
+
+    }
+    .right{
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 0;
+    }
+    .right p{
+        padding: 20px;
+        font-size: 30px;
+    }
+    .filler{
+        height: 6vh;
+    }
+}
