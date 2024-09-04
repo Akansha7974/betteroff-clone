@@ -32,7 +32,48 @@ nav > i{
         padding: 20px;
         font-size: 30px;
     }
-    .filler{
-        height: 6vh;
+    .filler {
+        height: 10vh;
     }
-}
+    .slider{
+        padding-top: 40px;
+    }
+    .sliderinside span{
+        font-size: 200px;
+    }
+    .sliderinside img{  
+        height: 140px;
+    }
+    .page2 p{
+        font-size: 25px;
+    }
+    .page3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .page3 .left p{
+        white-space: nowrap;
+        font-size: 20px;
+    }
+    .page3 .center{
+       width: 100%;
+    }
+    .page3 .center h1{
+        font-size: 20px;
+    }
+    .page3 .center p{
+        font-size: 15px;
+    }
+    .page3 .right2{
+        font-size: 20px;
+    }
+    .page4content{
+        padding: 50px;
+        font-size: 50px;
+        white-space: nowrap;
+    }
+    .page4 video{
+        display: none;
+    }
