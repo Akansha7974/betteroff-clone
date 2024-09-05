@@ -77,3 +77,20 @@ nav > i{
     .page4 video{
         display: none;
     }
+    .page5 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .page5 .upper h1{
+        font-size: 25px;
+    }
+    .page5 .upper p{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .page5 h2{
+        font-size: 110px;
+    }
+    .page6 h1{
+        width: 100%;
+    }
