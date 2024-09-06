@@ -10,7 +10,7 @@ html,body{
 main{
     height: 100vh; 
     width: 100vw;
-    overflow: hidden;
+    overflow: hidden; 
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
@@ -37,7 +37,7 @@ nav li:last-child{
 }
 .left{
     padding: 5vw 1.7vw;
-    height: 100vh;
+    /* height: 100vh; */
     width: 50vw;
 }
 .left h1{
@@ -59,10 +59,39 @@ nav li:last-child{
      font-weight: 600;
 }
 .right{
-    height: 100vh;
     width: 70vw;
 }
 .right img{
-    width: 50vw;
+     width: 70vw; 
 }
 
+
+nav i{
+    display: none;
+}
+@media (max-width:600px){
+    nav i{
+        display: initial;
+    }
+    nav ul{
+        display: none;
+    }
+    .left h1{
+        font-size: 8vw;
+    }
+    .left p{
+        font-size: 4vw;
+        width: 100vw;
+        line-height: 4vw;
+    }
+    .left button{
+        margin-top: 4vw;
+        padding: 2vw 4vw;
+    }
+    .content{
+        flex-direction: column-reverse;
+    }
+    .right img{
+        width: 100vw;
+    }
+}
